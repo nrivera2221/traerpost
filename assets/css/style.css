@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+button{
+    background-color: #C0C0C0;
+    width: 100px;
+    height: 50px;
+    margin: 20px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #808080; /* Un gris más claro al pasar el mouse */
+}
+
+button:active {
+    transform: scale(0.95); /* Reducir el tamaño al hacer clic */
+}
+
+#post-data{
+    margin: 30px 90px;
+}
+
+#post-lista li{
+    padding-bottom: 20px;
+} 
+
+#post-lista h3{
+    padding-bottom: 10px;
+} 
